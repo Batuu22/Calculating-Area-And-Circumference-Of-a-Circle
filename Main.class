@@ -1,0 +1,31 @@
+package Packet;
+
+import java.util.Scanner;
+
+public class Main {
+	
+	// Calculating area and circumference of a Circle... 
+	
+	
+	public static void main(String[] args) {
+		
+		double pi = 3.14;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Type the Radius of the Circle you want to calculate Area and Circumference:");
+		
+		int Yr = scan.nextInt();
+		
+		double A = pi*(Yr*Yr); 
+		
+		double C = (2*pi)*Yr;
+		
+		System.out.println("Circle's Area: " + (int)A);
+		System.out.println("Circle's Circumference: " + (int)C);
+		
+		
+		
+	}
+	
+}
